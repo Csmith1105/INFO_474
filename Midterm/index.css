@@ -3,29 +3,112 @@ body{
   flex-direction: row;
   height: 600px;
   width: 1000px;
+  font-family: "Tahoma", "Geneva", sans-serif;
+  font-weight: lighter;
+}
 
+#plot {
+  width: 800px;
 }
 
 #side{
+  align-content: center;
   height: 100%;
   width: 20%;
-  border: solid red 1px;
 }
 
 #legendary{
-  height: 30%;
+
+  height: 10%;
   width: 100%;
-  border: solid blue 1px;
+
 }
 
 #generation{
+
   height: 10%;
   width: 100%;
-  border: solid green 1px;
+
 }
 
 #type1{
-  height: 60%;
+  height: 80%;
   width: 100%;
-  border: solid purple 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rect{
+  height: 15px;
+  width: 15px;
+  margin:3px;
+}
+
+#colors {
+  margin-top: 50px;
+  width = 30px;
+  height = 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+#one{
+  background-color: #4E79A7;
+}
+#two{
+  background-color: #A0CBE8;
+}
+#three{
+  background-color: #F28E2B;
+}
+#four{
+  background-color: #FFBE7D;
+}
+#five{
+  background-color: #59A14F;
+}
+#six{
+  background-color: #8CD17D;
+}
+#seven{
+  background-color: #B6992D;
+}
+#eight{
+  background-color: #499894;
+}
+#nine{
+  background-color:  #86BCB6;
+}
+#ten{
+  background-color: #FABFD2;
+}
+#eleven{
+  background-color: #E15759;
+}
+#twelve{
+  background-color: #FF9D9A;
+}
+#thirteen{
+  background-color: #79706E;
+}
+#fourteen{
+  background-color: #BAB0AC;
+}
+#fifteen{
+  background-color: #D37295;
+}
+
+#types {
+  align-content: space-between;
+  margin-top: 50px;
+  font-size: 11px;
+  width = 30px;
+  height = 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.type_name{
+  margin: 4px;
 }
