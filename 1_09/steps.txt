@@ -1,0 +1,55 @@
+*** data2 ***
+
+put X in Column
+put Y in Rows
+de-aggregate
+put B in Marks > Color
+
+*** data3 ***
+
+put Y in Column
+change Y to longitude
+put X in Rows
+change X to latitude
+de-aggregate
+put P in Marks > Size
+
+
+*** data4 ***
+
+put Y in Column
+change Y to Geographic Role > Longitude
+put X in Rows
+change Y to Geographic Role > Latitude
+de-aggregate
+change marks type to Maps
+put Number of Records in Pages
+click right arrow on Number of Records
+choose Running Total *** and then what???
+do something with the running sum of numbers on the right hand side
+
+*** Admission Predict ***
+
+How does 1 point gained in GRE increase percentage of chance of admission?
+
+GRE Score in Columns
+Chance of Admit in Rows
+Analysis > Trend Line
+hover over Trend Line
+Slope is change of Chance of Admit per point increase in GRE Score
+To change the range of the axes, double click an axis, change Range to Fixed
+
+How does research count increase percentage of chance of admission?
+
+same steps as before
+Analysis > Trend Line > change to Exponential
+
+Which factor is the most important?
+
+Put CGPA in Columns and then put all the other factors in Rows. 
+This will give you separate plots for each factor
+
+
+
+
+

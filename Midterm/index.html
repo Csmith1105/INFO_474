@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon: Special Defense vs Total Stats</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.js" integrity="sha256-BANs9QteeZKuqwQcdddFZlWLLyUCIke5Nn80f8B5G3g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Create a div where the graph will take place -->
+  <div id="plot">
+    <h1>Pokemon: Special Defense vs Total Stats</h1>
+  </div>
+  <div id="side">
+    <div id="legendary">
+      <h3>Legendary</h3>
+      <select id="leg-drop">
+        <option value="All">All</option>
+        <option value="False">False</option>
+        <option value="True">True</option>
+      </select>
+    </div>
+    <div id="generation">
+      <h3>Generation</h3>
+      <select id="gen-drop">
+        <option value="All">All</option>
+        <option value="1">1
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <div id="type1">
+      <h3>Type 1</h3>
+    </div>
+  </div>
+</body>
+    <script src="index.js"></script>
+</html>

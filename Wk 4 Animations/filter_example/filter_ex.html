@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+.h-bar {
+    min-height:15px;
+    min-width: 10px;
+    width:0px;
+    height:0px;
+    background-color: steelblue;
+    margin-bottom: 2px;
+    font-size: 11px;
+    color: #f0f8ff;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.control-group {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.selected {
+    background-color: #f08080;
+}
+
+</style>
+<head>
+    <meta charset="utf-8">
+    <title>Data Filter</title>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+</head>
+
+<body>
+  <script src="filter_ex.js"></script>
+<div class="control-group">
+    <button onclick="select('Retail')">
+        Retail
+    </button>
+    <button onclick="select('Gas')">
+        Gas
+    </button>
+    <button onclick="select('Dining')">
+        Dining
+    </button>
+    <button onclick="select()">
+        Clear
+    </button>
+</div>
+
+</body>
+
+</html>
