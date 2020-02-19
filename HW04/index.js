@@ -89,10 +89,10 @@ function showCircles(me) {
 
     svgContainer.selectAll(".circles")
         .data(data)
-        .filter(function(d) {return d.population > 10^7;})
-        .enter()
+        .filter(function(d) {return name == (d.population > 10^7);})
         .append('g')
-        .text("Country")
+        .text(name)
+        .attr("display", display);
 
 }
 
